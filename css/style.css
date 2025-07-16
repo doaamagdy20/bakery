@@ -1,0 +1,175 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.navbar{
+display: flex;
+   justify-content: space-around;
+
+  
+}
+.logo img{
+    width: 170px;
+}
+.navbar ul{
+    list-style: none;
+    display: flex;
+    margin-top: 30px;
+    margin-left: 70px;
+   
+}
+.navbar a{
+    text-decoration: none;
+    display: inline;
+    color: white;
+    font-size: 20px;
+    text-transform: capitalize;
+    padding: 0px 20px;
+    
+}
+
+.main{
+ background-image: url('../images/drew-coffman-1872.jpg');
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-position: center center;
+ width: 100%;
+ height: 100vh;
+ position: relative;
+
+}
+.hero-section{
+    color: white;
+    position: absolute;
+    top: 42%;
+    left: 30%;
+    text-align: center;
+    width: 750px;
+}
+.hero-section h6{
+    font-size: 15px;
+    color: #ffffeb;
+    margin: 0px 0px 5px;
+    font-family:sans-serif;
+}
+.hero-section h1{
+    font-size: 70px;
+    padding: 20px 0px;
+    font-family:sans-serif;
+}
+.hero-section p{
+    font-family:Roboto;
+    font-size: 25px;
+    padding: 20px 0px;
+}
+.hero-section button{
+     margin-top: 15px;
+     padding: 15px 28px;
+     -webkit-border-radius:3px ;
+     -moz-border-radius:3px ;
+     -ms-border-radius:3px ;
+     -o-border-radius:3px ;
+      border-radius:3px ;
+      text-transform: capitalize;
+}
+.learn-more{
+    background-color: #8e7754;
+    transition-property: all;
+    transition-duration: .5s;
+    border: none;
+    margin: 0px 0px 12px 12px;
+    
+}
+.contact-us{
+    background-color: none;
+     border: solid 2px white;
+       margin: 0px 0px 12px 12px;
+
+}
+.learn-more:hover{
+    background-color: white;
+    cursor: pointer;
+      
+
+}
+
+.about-us-section {
+    padding: 80px 0; 
+    background-color: #f9f9f9; 
+    
+   
+}
+
+.about-us-section .container {
+    
+    display: flex;
+    align-items: center; 
+    gap: 20px; 
+    justify-content: center;
+
+}
+
+
+.about-us-section {
+    padding: 60px 0; 
+    background-color: #f9f9f9; 
+}
+
+.about-us-section .container {
+    display: flex;
+    align-items: center; 
+    align-content: center;
+    gap: 10px; 
+}
+
+
+
+.about-image img {
+   width: 70%;
+   border-radius: 5px; 
+   margin-left: 100px;
+ 
+}
+
+.about-content {
+    flex: 1.5; 
+    
+    
+}
+
+.about-content h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.8rem;
+    color: var(--dark-text);
+    margin-bottom: 25px;
+    position: relative;
+}
+
+.about-content p {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 30px;
+    line-height: 1.7;
+}
+
+.about-content ul {
+    list-style: none; 
+}
+
+.about-content ul li {
+    font-size: 1.1rem;
+    color: #444;
+    margin-bottom: 15px;
+    display: flex; 
+    align-items: center;
+}
+
+.about-content ul li i {
+    color:#8e7754 ; 
+    margin-right: 15px;
+    font-size: 1.4rem;
+    width: 25px; 
+    text-align: center;
+    
+}
